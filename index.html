@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Rockola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mini Rockola</h1>
+        <h2>CANCIONES</h2>
+        <select id="playlist" size="4" class="playlist"></select>
+        <div class="video-container">
+            <video id="videoPlayer" controls class="video-player">
+                <source id="videoSource" src="" type="video/mp4">
+            </video>
+        </div>
+        <label for="fileInput" class="button">Agrega tu Cancion</label>
+        <input type="file" id="fileInput" accept=".mp3, .wav, .aac, .flac, .mp4, .avi, .mkv" multiple class="custom-file-input">
+
+    </div>
+    <script src="main.js"></script>
+
+    <footer>BY IVAN GARCIA</footer>
+</body>
+</html>
